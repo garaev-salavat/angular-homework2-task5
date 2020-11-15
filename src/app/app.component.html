@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>The visibility Property</h1>
+    <table [class]="{ invisible: hide }">
+      <tr>
+        <td class="{{'redColor'}}">255, 165, 0</td>
+      </tr>
+      <tr>
+        <td class="{{'orangeColor'}}">255, 165, 0</td>
+      </tr>
+      <tr>
+        <td class="{{'yellowColor'}}">255, 255, 0</td>
+      </tr>
+      <tr>
+        <td [class]="'greenColor'">0, 128, 0</td>
+      </tr>
+      <tr>
+        <td [class]="'lightBlueColor'">173, 216, 230</td>
+      </tr>
+      <tr>
+        <td [class]="'blueColor'">0, 0, 255</td>
+      </tr>
+      <tr>
+        <td [class]="'violetColor'">238, 130, 238</td>
+      </tr>
+    </table>
+    <hr>
+    <button (click)="visibil()">Toggle</button>
+  </body>
+</html>

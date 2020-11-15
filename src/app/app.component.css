@@ -1,0 +1,32 @@
+table,
+td {
+  border: 1px solid black;
+}
+.redColor {
+    background: rgb(255, 0, 0);
+  }
+
+  .orangeColor {
+    background: rgb(255, 165, 0);
+  }
+
+  .yellowColor {
+    background: rgb(255, 255, 0);
+  }
+
+  .greenColor {
+    background: rgb(0, 128, 0);
+  }
+
+  .lightBlueColor {
+    background: rgb(173, 216, 230);
+  }
+  .blueColor {
+    background: rgb(0, 0, 255);
+  }
+  .violetColor {
+    background: rgb(238, 130, 238);
+  }
+  .invisible {
+    display: none;
+  }
